@@ -1,8 +1,12 @@
 <?php
 // ================================================================
-// FILE: includes/footer.php
+// FILE: includes/super-admin-bottom.php
 // ================================================================
 ?>
-    </div><!-- /app-body -->
+        </div><!-- /.sa-content -->
+    </main>
+
+    <?php require __DIR__ . '/super-admin-footer.php'; ?>
+
 </body>
 </html>
